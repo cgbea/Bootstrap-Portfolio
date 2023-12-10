@@ -61,15 +61,19 @@ nav ul li {
 }
 
 .section-detail {
-  
+  grid-area: "about-detail" "work-detail" "contact-detail";
+
+
 }
 
 #about {
-  grid-area:"about"
+  grid-area:"about";
+  
 }
 
 #about-detail {
   grid-area: "about-detail";
+  justify-self: center;
 }
 
 #work {
@@ -77,7 +81,8 @@ nav ul li {
 }
 
 #work-detail {
-  grid-area:"work-detail"
+  grid-area:"work-detail";
+  justify-self: center;
 }
 
 #contact {
@@ -86,6 +91,7 @@ nav ul li {
 
 #contact-detail {
   grid-area: "contact-detail";
+  justify-self: center;
 }
 
 "about" "about-detail"
