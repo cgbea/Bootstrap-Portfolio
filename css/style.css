@@ -116,8 +116,11 @@ nav ul li {
   background-size: cover;
   background-repeat: no-repeat;
   text-indent: 2%;
-  color: white;
   border: 5px solid white
+}
+
+#proj2 a {
+  color: white;
 }
 
 #proj3 {
@@ -129,6 +132,9 @@ nav ul li {
   background-repeat: no-repeat;
   text-indent: 2%;
   border: 5px solid white;
+}
+
+#proj3 a {
   color: white;
 }
 
@@ -152,6 +158,9 @@ nav ul li {
   background-repeat: no-repeat;
   text-indent: 2%;
   border: 5px solid white;
+}
+
+#proj5 a {
   color: white;
 }
 
@@ -164,6 +173,7 @@ nav ul li {
   display: flex;
   flex-direction: row;
   position: relative;
+  background-color: #d0ede9;
   
 }
 
@@ -181,6 +191,10 @@ h6 {
 a { 
   text-decoration: none;
 }
+
+a:link, a:visited {
+  color: darkslategrey;
+}
 p {
   margin: 0;
   padding: 1% 5% 0% 5%
@@ -189,3 +203,49 @@ p {
 .address {
   line-height: 1;
 }
+
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 1.17em;
+  }
+
+  li {
+    display: none!important;
+  }
+
+  .hero-banner {
+    height: 50px;
+  }
+
+  .page-section {
+    padding: 0%;
+  }
+
+  nav h1{
+    display: flex;
+    width: 100% 
+  }
+
+  nav ul {
+    width: 0%;
+  }
+
+  #about-detail {
+    font-size: 0.9em;
+  }
+  #proj2, #proj3, #proj4, #proj5 {
+    width: 100%;
+  } 
+/*
+  #contact */
+  .page-section h2 {
+    font-stretch: condensed;
+    letter-spacing: -0.03em;
+    word-spacing: -0.08em;
+    padding-top: 4%;
+    line-height: 1;
+  }
+
+  #contact-detail {
+    font-size: .5em;
+  }
