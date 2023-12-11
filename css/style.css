@@ -10,6 +10,12 @@ body {
   margin: 0px 5%;
 }
 
+h1 img {
+  border-radius: 50%;
+  width: 50px;
+  padding: 2%;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -17,12 +23,15 @@ nav {
   position: relative;
 }
 nav h1 {
-  width: 25%;
+  display: flex;
+  align-items: center;
+  width: 40%;
   font-weight: 500;
+  margin: auto;
 }
 nav ul {
   display: flex;
-  width: 75%;
+  width: 60%;
   justify-content:  flex-end;
   list-style-type: none;
   gap: 10%;
@@ -61,8 +70,6 @@ nav ul li {
 }
 
 .section-detail {
-  grid-area: "about-detail" "work-detail" "contact-detail";
-
 
 }
 
@@ -82,7 +89,26 @@ nav ul li {
 
 #work-detail {
   grid-area:"work-detail";
-  justify-self: center;
+ 
+
+  align-items: center;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  text-indent: 2%;
+  height: calc(100vh - 100px);
+  flex-direction: row;
+}
+
+#proj1 {
+  background-image: url("../images/02-portfolio-4.jpg");
+  width: 100%;
+  aspect-ratio: 3/2;
+ 
+  background-position: center;
+  background-size: contain;
+
+  background-repeat: no-repeat;
 }
 
 #contact {
@@ -94,10 +120,6 @@ nav ul li {
   justify-self: center;
 }
 
-"about" "about-detail"
-    "work" "work-detail"
-    "contact" "contact-detail"
-*/
 
 h1,
 h2,
