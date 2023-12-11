@@ -38,7 +38,6 @@ nav ul {
 }
 nav ul li {
   cursor: pointer;
-  text-decoration: none;
 }
 
 .hero-banner {
@@ -66,10 +65,11 @@ nav ul li {
 
 .page-section {
   border-right: dashed darkslategray;
+  padding: 5%;
 }
 
 .section-detail {
-
+  padding: 2%;
 }
 
 #about {
@@ -79,7 +79,7 @@ nav ul li {
 
 #about-detail {
   grid-area: "about-detail";
-  justify-self: center;
+  padding: 2%;
 }
 
 #work {
@@ -161,8 +161,12 @@ nav ul li {
 
 #contact-detail {
   grid-area: "contact-detail";
-  justify-self: center;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  
 }
+
 
 
 h1,
@@ -174,6 +178,14 @@ h6 {
   margin: 0;
 }
 
+a { 
+  text-decoration: none;
+}
 p {
   margin: 0;
+  padding: 1% 5% 0% 5%
+}
+
+.address {
+  line-height: 1;
 }
