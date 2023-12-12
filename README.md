@@ -4,7 +4,7 @@
 
 This project was created to showcase my web development experience to prospective employers. The website is a responsive portfolio, including my bio, links to my work (or placeholders for future projects) and contact information. It will be updated as my skills progress.
 
-[Screenshot of deployed webpage on 2023-12-12](images/Screenshot_2023-12-12_10.33.48.png)
+![Screenshot of deployed webpage on 2023-12-12](images/Screenshot_2023-12-12_10.33.48.png)
 
 ## Installation
 n/a
