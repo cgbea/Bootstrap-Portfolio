@@ -236,8 +236,7 @@ p {
   #proj2, #proj3, #proj4, #proj5 {
     width: 100%;
   } 
-/*
-  #contact */
+
   .page-section h2 {
     font-stretch: condensed;
     letter-spacing: -0.03em;
@@ -249,3 +248,4 @@ p {
   #contact-detail {
     font-size: .5em;
   }
+}
