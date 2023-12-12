@@ -9,6 +9,7 @@ body {
   color: darkslategrey;
   margin: 0px 5%;
 }
+/* Profile header and navigation */
 
 h1 img {
   border-radius: 50%;
@@ -40,6 +41,7 @@ nav ul li {
   cursor: pointer;
 }
 
+/* hero */
 .hero-banner {
   background-image: url("../images/02-portfolio-3.jpg") ;
   position: relative;
@@ -49,6 +51,8 @@ nav ul li {
   color: #E3A294;
   padding: 1%;
 }
+
+/* main area structure and styles */
 
 .page-wrapper { 
   display: grid;
@@ -164,6 +168,8 @@ nav ul li {
   color: white;
 }
 
+/* footer contact detail styles*/
+
 #contact {
   grid-area: "contact";
 } 
@@ -173,11 +179,14 @@ nav ul li {
   display: flex;
   flex-direction: row;
   position: relative;
-  background-color: #d0ede9;
-  
+  background-color: #d0ede9; 
 }
 
+.address {
+  line-height: 1;
+}
 
+/*misc. general styling */
 
 h1,
 h2,
@@ -200,9 +209,7 @@ p {
   padding: 1% 5% 0% 5%
 }
 
-.address {
-  line-height: 1;
-}
+/*reponsive styling*/
 
 @media only screen and (max-width: 600px) {
   h2 {
