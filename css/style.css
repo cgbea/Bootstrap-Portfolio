@@ -11,12 +11,10 @@ body {
 }
 /* Profile header and navigation */
 
-h1 img {
+nav a img {
   border-radius: 50%;
-  width: 50px;
-  padding: 2%;
 }
-
+/*
 nav {
   display: flex;
   flex-direction: row;
@@ -210,7 +208,7 @@ p {
 }
 
 /*reponsive styling*/
-
+/*
 @media only screen and (max-width: 600px) {
   h2 {
     font-size: 1.17em;
@@ -228,14 +226,6 @@ p {
     padding: 0%;
   }
 
-  nav h1{
-    display: flex;
-    width: 100% 
-  }
-
-  nav ul {
-    width: 0%;
-  }
 
   #about-detail {
     font-size: 0.9em;
