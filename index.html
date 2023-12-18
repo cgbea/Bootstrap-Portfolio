@@ -21,7 +21,7 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
   <header>
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="./images/profile_pic.jpg" width="30" height="30" class="d-inline-block align-top" alt="Profile picture"> </h1>
+        <a class="navbar-brand" href="#"> </h1>
       Catherine Beagent</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -30,6 +30,7 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
           <div class="navbar-nav gap-3">
             <a class="nav-link" href="#about">About me</a>
             <a class="nav-link" href="#work">Projects</a>
+            <a class="nav-link" href="#skills">Skills</a>
             <a class="nav-link" href="#contact">Get in touch</a>
           </div>
         </div>
@@ -57,7 +58,22 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
   </header>
 
   <!-- hero banner -->
-  <section class="container-fluid hero-banner">
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="display-4">Lets collaborate!</h1>
+          <p class="lead">Beautiful websites, built to be used</p>
+       </div>
+       <div class="col-3">
+        <img src="./images/profile_pic.jpg" width="70hv" height="70hv" class="d-inline-block align-top" alt="Profile picture" id="about">
+        </div>
+        </div>
+      </div>
+    </div>
+
+  <!--  <section class="container-fluid hero-banner">
     <div>
       <h2>Let's collaborate!</h2>
     </div>
@@ -114,27 +130,38 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
     </section>
   -->
 
-  <div class="container">
+  <section class="container">
     <div class="row">
-      <div class="col">
-        1 of 3
+      <div class="col" id="work">
+        <h1>Projects</h1>
       </div>
-      <div class="col-6">
+      <div class="col-9">
         2 of 3 (wider)
       </div>
       </div>
-      </div>
+    </section>
 
-  <main class="container">
+  <section class="container">
     <div class="row">
-      <div class="col">
-        <h1>About me</h1>
+      <div class="col" id="skills">
+        <h1>Skills</h1>
     </div>
     <div class="col-9">
       Project manager and front-end-developer-in-training, with a special interest in software localization and internationalization.
     </div>
-  </main>
-  </main>
+  </div>
+</section>
+
+<section class="container">
+  <div class="row">
+    <div class="col" id="about">
+      <h1>Get in touch!</h1>
+  </div>
+  <div class="col-9">
+    Project manager and front-end-developer-in-training, with a special interest in software localization and internationalization.
+  </div>
+</div>
+</section>
 </body>
 
 </html>

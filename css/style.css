@@ -39,7 +39,7 @@ nav ul li {
   cursor: pointer;
 }
 
-/* hero */
+/* hero 
 .hero-banner {
   background-image: url("../images/02-portfolio-3.jpg") ;
   position: relative;
@@ -48,6 +48,17 @@ nav ul li {
   height: 100px;
   color: #E3A294;
   padding: 1%;
+}
+*/
+
+.jumbotron {
+  background-image: url("../images/02-portfolio-3.jpg") 
+}
+
+.jumbotron img {
+  border-radius: 50%;
+  margin-top: 5%;
+  margin-right: 3px;
 }
 
 /* main area structure and styles */
@@ -202,6 +213,7 @@ a {
 a:link, a:visited {
   color: darkslategrey;
 }
+/*
 p {
   margin: 0;
   padding: 1% 5% 0% 5%
