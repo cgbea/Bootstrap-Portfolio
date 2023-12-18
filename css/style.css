@@ -179,6 +179,9 @@ nav ul li {
 
 /* footer contact detail styles*/
 
+.card {
+  margin-bottom: 3%;
+}
 #contact {
   grid-area: "contact";
 } 
@@ -194,8 +197,14 @@ nav ul li {
 .address {
   line-height: 1;
 }
+.work 
 
 /*misc. general styling */
+
+#proj1 {
+  background-image: url("https://placehold.co/600x400/ffb3b3/00000")
+}
+
 
 h1,
 h2,
