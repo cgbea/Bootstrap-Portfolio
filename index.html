@@ -20,9 +20,8 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
   <!-- main logo / nav -->
   <header>
     <nav class="navbar navbar-expand-md bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"> </h1>
-      Catherine Beagent</a>
+      <div class="container-fluid" id="top">
+        <a class="navbar-brand" href="#"></h1>Catherine Beagent</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,26 +34,6 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
         </div>
       </div>
     </nav>
-    <!--
-    <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
-      <a class="navbar-brand" href="#">
-      <img src="./images/profile_pic.jpg" width="30" height="30" class="d-inline-block align-top" alt="Profile picture"> </h1>
-      Catherine Beagent</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar nav">
-        <li class="nav-item">
-        <a class="nav-link" href="#about">About me</a></li>
-        <li class="nav-item">
-        <a class="nav-link" href="#work">Projects</a></li>
-        <li class="nav-item">
-        <a class="nav-link" href="#contact">Get in touch</a></li>
-      </ul>
-      </div>
-    </nav> 
-  </header>
 
   <!-- hero banner -->
 
@@ -64,29 +43,29 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
         <div class="col">
           <h1 class="display-4">Lets collaborate!</h1>
           <p class="lead">Beautiful websites, built to be used</p>
-       </div>
-       <div class="col-3">
-        <img src="./images/profile_pic.jpg" width="70hv" height="70hv" class="d-inline-block rounded" alt="Profile picture">
         </div>
+        <div class="col-3">
+          <img src="./images/profile_pic.jpg" width="70hv" height="70hv" class="d-inline-block rounded" alt="Profile picture">
+          </div>
         </div>
       </div>
     </div>
 
-  <section class="container">
+<!-- Project showcase -->
+  <section class="container pt-2">
     <div class="row">
-      <div class="col bg-light" id="work">
-        <h1>Projects</h1>
+      <div class="col bg-light rounded-top pt-3" id="work">
+        <h2>Projects</h2>
       </div>
       <div class="col-9">
         <detail class="container">
-          
           <div class="row">
             <div class="col-12" id="proj1">
               <div class="card">
                 <img class="card-img-top" src="https://placehold.co/600x400/ffb3b3/00000" alt="Project 1 screenshot">
                 <div class="card-body">
                   <h5 class="card-title">Project 1</h5>
-                  <p class="card-text">My best project placeholder</p>
+                  <p class="card-text">Placeholder description: A webpage targeting prospective students of an online coding course, including information about the course, links to resources and a sign-up form to register their interest.</p>
                   <a href="#" class="btn btn-primary">Take me there</a>
                 </div>
               </div>
@@ -95,7 +74,7 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
               <div class="card"><img class="card-img-top" src="https://placehold.co/600x400/b3ffb3/00000" alt="Project 2 screenshot">
                 <div class="card-body">
                   <h5 class="card-title">Project 2</h5>
-                  <p class="card-text">Minor project placeholder</p>
+                  <p class="card-text">Placeholder text: project description will go here</p>
                   <a href="#" class="btn btn-primary">Take me there</a>
                 </div>
               </div>
@@ -104,26 +83,26 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
               <div class="card"><img class="card-img-top" src="https://placehold.co/600x400/c2c2d6/00000" alt="Project 3 screenshot">
                 <div class="card-body">
                   <h5 class="card-title">Project 3</h5>
-                  <p class="card-text">Minor project placeholder</p>
+                  <p class="card-text">Placeholder text: project description will go here</p>
                   <a href="#" class="btn btn-primary">Take me there</a>
                   </div>
                 </div>
             </div>
           <div class="col-md-6">
             <div class="card">
-              <img class="card-img-top" src="https://placehold.co/600x400/ffd9b3/00000" alt="Project 3 screenshot">
+              <img class="card-img-top" src="https://placehold.co/600x400/ffd9b3/00000" alt="Project 4 screenshot">
                 <div class="card-body">
                   <h5 class="card-title">Project 4</h5>
-                  <p class="card-text">Minor project placeholder</p>
+                  <p class="card-text">Placeholder text: project description will go here</p>
                   <a href="#" class="btn btn-primary">Take me there</a>
                 </div>
               </div>
             </div>
           <div class="col-md-6"><div class="card">
-            <img class="card-img-top" src="https://placehold.co/600x400/ccfff2/00000" alt="Project 3 screenshot">
+            <img class="card-img-top" src="https://placehold.co/600x400/ccfff2/00000" alt="Project 5 screenshot">
             <div class="card-body">
               <h5 class="card-title">Project 5</h5>
-              <p class="card-text">Minor project placeholder</p>
+              <p class="card-text">Placeholder text: project description will go here</p>
               <a href="#" class="btn btn-primary">Take me there</a>
               </div> 
           </div>
@@ -133,30 +112,32 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
       </div>
     </section>
 
+<!--Skills showcase-->
   <section class="container">
     <div class="row">
       <div class="col bg-light" id="skills">
-        <h1>Skills</h1>
+        <h2>Skills</h2>
     </div>
     <div class="col-9 mb-3">
-      CSS, HTML, Bootstrap, Figma, Github, Gitlab, Asana, Jira, Office365, Adobe Acrobat Pro, Adobe InDesign, Miro, Bynder, Azure AI Speech to Text, GoTo Suite, XTM, Crowdin, Trados, TermWeb, Qualtrics</div>
+      CSS, HTML, JavaScript, Bootstrap, Figma, Github, Gitlab <!-- Skills from work experience to be added later: Asana, Jira, Office365, Adobe Acrobat Pro, Adobe InDesign, Miro, Bynder, Azure AI Speech to Text, GoTo Suite, XTM, Crowdin, Trados, TermWeb, Qualtrics--></div>
   </div>
 </section>
 
+<!-- Bio and contact information-->
 <section class="container">
   <div class="row">
-    <div class="col bg-light" id="about">
-      <h1>Get in touch!</h1>
+    <div class="col bg-light rounded-bottom" id="about">
+      <h2>Get in touch!</h2>
   </div>
   <div class="col-9">
     <div class="row">
-      <div class="col-12 pb-3"><h6>I am a project manager and front-end-developer-in-training, with a special interest in software localization and internationalization. I'm always open to new ideas and challenges-- don't hesitate to get in touch!</h6>
+      <div class="col-12 pb-3"><h6>I am an experienced project manager and front-end-developer-in-training, with a special interest in software localization and internationalization. I'm always open to new ideas and challenges- don't hesitate to get in touch!</h6>
     </div>
      <div class="col-4">
-      <a href="https://uk.linkedin.com/in/catherine-beagent-88760b143"><img src="images/Gmail_icon_(2020).png" alt="Link to email cgbeagent@gmail.com" height="48px"></a>
+      <a href="mailto:cgbeagent@gmail.com"><img src="images/Gmail_icon_(2020).png" alt="Link to email cgbeagent@gmail.com" height="48px"></a>
     </div>
     <div class="col-4">
-      <a href=mailto:“cgbeagent@gmail.com><img src="images/linkedin.png" alt="Link to Linkedin page" height="48px"></a>
+      <a href="https://uk.linkedin.com/in/catherine-beagent-88760b143"><img src="images/linkedin.png" alt="Link to Linkedin page" height="48px"></a>
     </div>
     <div class="col-4">
       <p class="address">Salisbury Road,<br>London,<br>United Kingdom<p></p>
@@ -165,63 +146,18 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
   </div>
 </div>
 </section>
+
+<!--Footer navigation-->
+<section class="container" id="footer">
+  <footer class="py-3 my-4 ">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#top" class="nav-link px-2 text-body-secondary hover-shadow">Back to top</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Rates</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">© 2023 Catherine Beagent</p>
+  </footer>
+</section>
 </body>
-
-  <!--  <section class="container-fluid hero-banner">
-    <div>
-      <h2>Let's collaborate!</h2>
-    </div>
-  </section>
-
-  <main class="page-wrapper">
-    <!-- about me
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
-    </section>
-    
-    <section class="section-detail" id="about-detail">
-      <detail>Project manager and front-end-developer-in-training, with a special interest in software localization and internationalization.</detail>
-    </section>
-
-    portfolio container 
-    <section class="page-section" id="work">
-      <h2>Projects</h2>
-    </section>
-
-    <section class="section-detail" id="work-detail">
-      <detail id="proj1"> 
-        <a href="https://cgbea.github.io/cbeagent-portfolio/placeholder1">Project 1</a>
-      </detail>
-      <detail id="proj2"> 
-        <a href="https://cgbea.github.io/cbeagent-portfolio/placeholder2">Project 2</a>
-      </detail>
-      <detail id="proj3"> 
-        <a href="https://cgbea.github.io/cbeagent-portfolio/placeholder3">Project 3</a>
-      </detail>
-      <detail id="proj4"> 
-        <a href="https://cgbea.github.io/cbeagent-portfolio/placeholder4">Project 4</a>
-      </detail>
-      <detail id="proj5">
-        <a href="https://cgbea.github.io/cbeagent-portfolio/placeholder5">Project 5</a>
-      </detail>
-    </section>
-
-
-
-  contact
-    <section class="page-section" id="contact">
-      <h2>Get in touch</h2>
-    </section>
-    
-    <section class="section-detail" id="contact-detail">
-      <p>
-        <a href=mailto:“cgbeagent@gmail.com”Email>Email</a>
-        <p>
-      <p>
-        <a href="https://uk.linkedin.com/in/catherine-beagent-88760b143">LinkedIn</a>
-        <p>
-      <p class="address">Salisbury Road,<br>London,<br>United Kingdom<p>
-    </section>
-  -->
 
 </html>

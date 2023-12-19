@@ -1,55 +1,5 @@
-* {
-  box-sizing: border-box;
-}
 
-body {
-  padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  line-height: 1.5;
-  color: darkslategrey;
-  margin: 0px 5%;
-}
-/* Profile header and navigation
-
-nav a img {
-  border-radius: 50%;
-}
-/*
-nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  position: relative;
-}
-nav h1 {
-  display: flex;
-  align-items: center;
-  width: 40%;
-  font-weight: 500;
-  margin: auto;
-}
-nav ul {
-  display: flex;
-  width: 60%;
-  justify-content:  flex-end;
-  list-style-type: none;
-  gap: 10%;
-}
-nav ul li {
-  cursor: pointer;
-}
-
-/* hero 
-.hero-banner {
-  background-image: url("../images/02-portfolio-3.jpg") ;
-  position: relative;
-  background-size: cover;
-  width: 100%;
-  height: 100px;
-  color: #E3A294;
-  padding: 1%;
-}
-*/
+/* Visual adjustments to jumbotron/hero */
 .jumbotron {
   background: linear-gradient(#f8f9fa,#f0f5f5, #c2d6d6) ;
 }
@@ -58,138 +8,13 @@ nav ul li {
   margin-right: 3px;
 }
 
-/* main area structure and styles */
-/*
-.page-wrapper { 
-  display: grid;
-  min-height: 500px;
-  height: 70vh;
-  grid-template-columns: 25% 75%;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: 
-    "about" "about-detail"
-    "work" "work-detail"
-    "contact" "contact-detail" ;
-  position: relative;
-}
-
-.page-section {
-  border-right: dashed darkslategray;
-  padding: 5%;
-}
-
-.section-detail {
-  padding: 2%;
-}
-
-#about {
-  grid-area:"about";
-  
-}
-
-#about-detail {
-  grid-area: "about-detail";
-  padding: 2%;
-}
-
-#work {
-  grid-area: "work";
-}
-
-#work-detail {
-  grid-area:"work-detail";
-  align-items: center;
-  display: flex;
-  position: relative;
-  flex-wrap: wrap;
-  padding-left: 2%;
-  flex-direction: row;
-}
-
-#proj1 {
-  background-image: url("../images/02-portfolio-4.jpg");
-  width: 100%;
-  padding-top: 2%;
-  aspect-ratio: 3/2;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-indent: 2%;
-  border: 5px solid white
-}
-
-#proj2 {
-  background-image: url("../images/02-portfolio-1.jpg");
-  width: 50%;
-  aspect-ratio: 3/2;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-indent: 2%;
-  border: 5px solid white
-}
-
-#proj2 a {
-  color: white;
-}
-
-#proj3 {
-  background-image: url("../images/02-portfolio-2.jpg");
-  width: 50%;
-  aspect-ratio: 3/2;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-indent: 2%;
-  border: 5px solid white;
-}
-
-#proj3 a {
-  color: white;
-}
-
-#proj4 {
-  background-image: url("../images/02-portfolio-3.jpg");
-  width: 50%;
-  aspect-ratio: 3/2;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-indent: 2%;
-  border: 5px solid white
-}
-
-#proj5 {
-  background-image: url("../images/02-run-buddy.jpg");
-  width: 50%;
-  aspect-ratio: 3/2;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-indent: 2%;
-  border: 5px solid white;
-}
-
-#proj5 a {
-  color: white;
-}
-
-/* footer contact detail styles*/
+/* Visual adjustments to project card layout*/
 
 .card {
   margin-bottom: 3%;
 }
-#contact {
-  grid-area: "contact";
-} 
 
-#contact-detail {
-  grid-area: "contact-detail";
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  background-color: #d0ede9; 
-}
+/* footer contact detail styles*/
 
 .address {
   line-height: 1;
@@ -201,51 +26,7 @@ nav ul li {
   padding-right: 0!important;
 }
 
-/*misc. general styling */
-
-
-/*
-p {
-  margin: 0;
-  padding: 1% 5% 0% 5%
-}
-
-/*reponsive styling*/
-/*
-@media only screen and (max-width: 600px) {
-  h2 {
-    font-size: 1.17em;
-  }
-
-  li {
-    display: none!important;
-  }
-
-  .hero-banner {
-    height: 50px;
-  }
-
-  .page-section {
-    padding: 0%;
-  }
-
-
-  #about-detail {
-    font-size: 0.9em;
-  }
-  #proj2, #proj3, #proj4, #proj5 {
-    width: 100%;
-  } 
-
-  .page-section h2 {
-    font-stretch: condensed;
-    letter-spacing: -0.03em;
-    word-spacing: -0.08em;
-    padding-top: 4%;
-    line-height: 1;
-  }
-
-  #contact-detail {
-    font-size: .5em;
-  }
+#footer a:hover {
+  box-shadow: 2px 2px 5px darkslategray;
+  border-radius: 10%;
 }
