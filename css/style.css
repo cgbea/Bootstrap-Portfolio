@@ -9,7 +9,7 @@ body {
   color: darkslategrey;
   margin: 0px 5%;
 }
-/* Profile header and navigation */
+/* Profile header and navigation
 
 nav a img {
   border-radius: 50%;
@@ -50,13 +50,10 @@ nav ul li {
   padding: 1%;
 }
 */
-
 .jumbotron {
-  background-image: url("../images/02-portfolio-3.jpg") 
+  background: linear-gradient(#f8f9fa,#f0f5f5, #c2d6d6) ;
 }
-
 .jumbotron img {
-  border-radius: 50%;
   margin-top: 5%;
   margin-right: 3px;
 }
@@ -197,31 +194,16 @@ nav ul li {
 .address {
   line-height: 1;
 }
-.work 
+
+/*Projects column styling to stop the sidebar from disappearing*/ 
+
+.row>* {
+  padding-right: 0!important;
+}
 
 /*misc. general styling */
 
-#proj1 {
-  background-image: url("https://placehold.co/600x400/ffb3b3/00000")
-}
 
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
-a { 
-  text-decoration: none;
-}
-
-a:link, a:visited {
-  color: darkslategrey;
-}
 /*
 p {
   margin: 0;
