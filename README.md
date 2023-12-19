@@ -1,8 +1,8 @@
-# Catherine Beagent Web Development Portfolio
+# Catherine Beagent Web Development Portfolio (Bootstrap
 
 ## Description
 
-This project was created to showcase my web development experience to prospective employers. The website is a responsive portfolio, including my bio, links to my work (or placeholders for future projects) and contact information. It will be updated as my skills progress.
+This project's goal was to recreate an [earlier portfolio](https://cgbea.github.io/cbeagent-portfolio/) showcasing my web development experience to prospective employers, using Bootstrap. The website is a responsive portfolio, including my bio, links to my work (or placeholders for future projects), contact information and a footer. It will be updated as my skills progress.
 
 ![Screenshot of deployed webpage on 2023-12-12](images/Screenshot_2023-12-12_10.33.48.png)
 
