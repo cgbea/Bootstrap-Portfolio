@@ -1,20 +1,20 @@
-# Catherine Beagent Web Development Portfolio (Bootstrap
+# Catherine Beagent Web Development Portfolio (Bootstrap)
 
 ## Description
 
-This project's goal was to recreate an [earlier portfolio](https://cgbea.github.io/cbeagent-portfolio/) showcasing my web development experience to prospective employers, using Bootstrap. The website is a responsive portfolio, including my bio, links to my work (or placeholders for future projects), contact information and a footer. It will be updated as my skills progress.
+This project's goal was to recreate an [earlier portfolio](https://cgbea.github.io/cbeagent-portfolio/) showcasing my web development experience to prospective employers, using Bootstrap classes in place of my own style.css file as far as possible. The website is a responsive portfolio, including a hero, links to my work (or placeholders for future projects), information about me, contact information and a footer. It will be updated as my skills progress.
 
-![Screenshot of deployed webpage on 2023-12-12](images/Screenshot_2023-12-12_10.33.48.png)
+![Screenshot of deployed webpage on 2023-12-12](images/127.0.0.1_5500_Bootstrap-Portfolio_index.html)
 
 ## Installation
 n/a
 
 ## Usage
 
-The website can be publically accessed at https://cgbea.github.io/cbeagent-portfolio/. 
+The website can be publically accessed at https://cgbea.github.io/Bootstrap-Portfolio. 
 
 ## Credits
-The starter code and assets were provided by edX as part of its Skills for Life front-end skills course. HTML and CSS techniques learned from [W3Schools](https://www.w3schools.com/) and [mdn web docs](https://developer.mozilla.org/en-US/docs/Learn) were used in the making of this website.
+The project brief was provided by edX as part of its Skills for Life front-end skills course. HTML, CSS and Bootstrap syntax learned from [Bootstrap documentation](https://getbootstrap.com/docs), [W3Schools](https://www.w3schools.com/) and [mdn web docs](https://developer.mozilla.org/en-US/docs/Learn) were used in the making of this website. The LinkedIn icon is used in accordance with their [brand guidelines](https://brand.linkedin.com/policies#:~:text=If%20you%20have%20a%20current,the%20terms%20of%20the%20agreement.) and any icons used were sourced from [Font Awesome](https://fontawesome.com/)
 
 ## License
 MIT License
